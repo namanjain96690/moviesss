@@ -1,7 +1,7 @@
 import React,{useEffect, useState} from 'react';
 import SearchIcon from './search.svg';
 import MovieCard from './MovieCard';
-const Api= "http://www.omdbapi.com?apikey=ea493709";
+const Api= "https://www.omdbapi.com?apikey=ea493709";
 const Main=()=>{
   const [movies,setMovies]=useState([]);
   const [dearch,setdearch]=useState("");
